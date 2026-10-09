@@ -1,0 +1,4 @@
+interface:
+  display_name: "Poster Case Studio"
+  short_description: "两轮案例匹配推荐风格与排版，预览并确认素材用途，生成可编辑海报与 PNG"
+  default_prompt: "使用 $poster-case-studio，根据我的图片与文字完成两轮案例匹配，展示素材用途预览，确认风格、排版与配色后制作可编辑海报。"

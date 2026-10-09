@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "matching": {
+    "round1": {
+      "dimensions": [
+        "eventType",
+        "audience"
+      ],
+      "limit": 40,
+      "count": "styleFamily"
+    },
+    "round2": {
+      "dimensions": [
+        "contentTypes",
+        "subjectType"
+      ],
+      "limit": 60,
+      "count": "composition"
+    },
+    "dimensionWeights": "equal",
+    "minimumPositiveSimilarity": 0,
+    "topCategories": 3,
+    "minimumCategoryCount": 9,
+    "caseTieBreak": "row ascending",
+    "categoryTieBreak": "taxonomy order"
+  },
+  "compositionLayouts": {
+    "上下构图": {
+      "layouts": [
+        "L01",
+        "L08",
+        "L11",
+        "L14",
+        "L15",
+        "L16"
+      ],
+      "note": "上下信息轨道；需检查图像重心与标题的位置。"
+    },
+    "居中构图": {
+      "layouts": [
+        "L01",
+        "L02",
+        "L08",
+        "L11"
+      ],
+      "note": "文字围绕中轴；底图主体仍需目视确认。"
+    },
+    "左右构图": {
+      "layouts": [
+        "L03",
+        "L07",
+        "L10",
+        "L12"
+      ],
+      "note": "左右栏或侧边标题；竖排与窄栏适合较短文字。"
+    },
+    "对角构图": {
+      "layouts": [
+        "L04",
+        "L06",
+        "L09",
+        "L13"
+      ],
+      "note": "标题与说明形成对角呼应，图像不会自动旋转。"
+    },
+    "四角构图": {
+      "layouts": [
+        "L05",
+        "L13"
+      ],
+      "approximate": true,
+      "note": "现有模板仅提供周边或分散信息轨道；四角位置需要手动微调。"
+    },
+    "对称构图": {
+      "layouts": [
+        "L01",
+        "L02",
+        "L08"
+      ],
+      "note": "可使用中轴文字结构；主体和装饰的对称性需要另行检查。"
+    },
+    "S形构图": {
+      "layouts": [
+        "L09",
+        "L13"
+      ],
+      "approximate": true,
+      "note": "现有模板没有完整 S 形文字路径；这两种提供转折节奏，需要微调位置。"
+    },
+    "散点构图": {
+      "layouts": [
+        "L04",
+        "L06",
+        "L09",
+        "L12",
+        "L13"
+      ],
+      "note": "使用分散文字锚点，并保持清楚的阅读顺序。"
+    },
+    "包围式构图": {
+      "layouts": [
+        "L05",
+        "L10",
+        "L12"
+      ],
+      "approximate": true,
+      "note": "侧边与周边文字最接近包围关系；完整环绕需要微调。"
+    }
+  }
+}
